@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     resetButton.addEventListener('click', () => {
 
 
-        score = 0;
+        score = 100;
 
 
         scoreDisplay.textContent = score;
