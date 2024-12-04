@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    let score = 0;
+    let score = 100;
 
 
     const scoreDisplay = document.getElementById('score');
