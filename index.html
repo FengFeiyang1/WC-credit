@@ -2,47 +2,49 @@
 
 <html lang="en">
 
-
 <head>
-
-
     <meta charset="UTF-8">
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <title>“冲了么”信用分</title>
-
-    
+    <title>冲了么</title>
     <link rel="stylesheet" href="style.css">
-
-
 </head>
 
-
 <body>
+    <h1>“冲了么”信用分系统</h1>
 
+    <div id="pageLogin" class="page" style="display: block">
+        <h3>选择身份</h3>
+        <button id="manager">管理员</button>
+        <button id="user">用户</button>
+    </div>
 
-    <h1>“冲了么”信用分</h1>
+    <div id="pageUsername" class="page" style="display: none">
+        <h3>选择用户名</h3>
+        <select id="usernames">
+            <option value="user1">张三</option>
+            <option value="user2">李四</option>
+            <option value="user3">王五</option>
+        </select>
+        <button id="usernameConfirm">确认</button>
+        <button id="usernameReturn">返回</button>
+    </div>
 
+    <div id="pageManager" class="page" style="display: none">
+        <div id="managerScore">100</div>
+        <!-- <button id="enquire">查询</button> -->
+        <button id="decrease">举报！</button>
+        <button id="reset">义工～</button>
+        <button id="managerReturn">返回</button>
+    </div>
 
-    <div id="score">100</div>
+    <div id="pageUser" class="page" style="display: none">
+        <div id="userScore">100</div>
+        <!-- <button id="enquire">查询</button> -->
+        <button id="userReturn">返回</button>
+    </div>
 
-
-    <!-- <button id="increase">增加分数</button> -->
-
-
-    <button id="decrease">举报！</button>
-
-
-    <button id="reset">义工～</button>
-
-    
     <script src="script.js"></script>
 
-
 </body>
-
 
 </html>
