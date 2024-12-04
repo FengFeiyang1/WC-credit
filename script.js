@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const scoreDisplay = document.getElementById('score');
 
 
-    const increaseButton = document.getElementById('increase');
+    // const increaseButton = document.getElementById('increase');
 
 
     const decreaseButton = document.getElementById('decrease');
@@ -21,16 +21,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const setScoreButton = document.getElementById('set-score');
 
 
-    increaseButton.addEventListener('click', () => {
+    // increaseButton.addEventListener('click', () => {
 
 
-        score++;
+    //     score++;
 
 
-        scoreDisplay.textContent = score;
+    //     scoreDisplay.textContent = score;
 
 
-    });
+    // });
 
 
     decreaseButton.addEventListener('click', () => {
